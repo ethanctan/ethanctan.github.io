@@ -1,0 +1,36 @@
+HTML tags:
+
+<p>
+<link>
+<canvas>
+<div>
+<h1>
+<h2>
+<h5>
+<a>
+<script>
+<ul>
+<li>
+<button>
+
+CSS properties:
+
+font-weight
+font-family
+color
+background-color
+position
+display
+width
+height
+min-height
+font-size
+bottom
+width
+filter
+display
+content
+
+Use of JS and Bootstrap:
+
+I used THREE.js to render and postprocess a 3D background for my website's homepage, and also used vanilla javascript to create a dark mode toggle on my resume page. I used bootstrap to style the elements on each page, especially my resume page.

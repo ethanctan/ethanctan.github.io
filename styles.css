@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+main {
+  position: absolute;
+  min-height: 100%;
+  height: 100%;
+  color: white;
+  filter: blur(0.7px);
+  font-family: 'BedsteadRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+#title {
+  filter: blur(0.5px);
+  font-family: 'ModeSeven';
+}
+
+#nav {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+#return {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Resume-specific styling */
+
+body {
+  font-family: 'Inter';
+  background-color: #FAF9F6;
+}
+
+.dark-mode {
+  background-color: #191919;
+  color: #FAF9F6;
+}
+
+#bigheader {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+ul {
+  margin-top: -10px
+}
+
+/* For adding brackets to links. Apologies for the caveman approach */
+
+#featured:hover span{
+  display: none
+}
+
+#featured:hover:before{
+  content: "[featured]"
+}
+
+#resume:hover span{
+  display: none
+}
+
+#resume:hover:before{
+  content: "[résumé]"
+}
+
+#connect:hover span{
+  display: none
+}
+
+#connect:hover:before{
+  content: "[connect]"
+}
+
+#hackharvard:hover span{
+  display: none
+}
+
+#hackharvard:hover:before{
+  content: "[HackHarvard: empath.ly]"
+}
+
+#JLI:hover span{
+  display: none
+}
+
+#JLI:hover:before{
+  content: "[JLI: philosophy]"
+}
+
+#back:hover span{
+  display: none
+}
+
+#back:hover:before{
+  content: "[back]"
+}
+
+#linkedin:hover span{
+  display: none
+}
+
+#linkedin:hover:before{
+  content: "[linkedin]"
+}
+
+#twitter:hover span{
+  display: none
+}
+
+#twitter:hover:before{
+  content: "[twitter]"
+}
+
+#email:hover span{
+  display: none
+}
+
+#email:hover:before{
+  content: "[email]"
+}
+
+#calendly:hover span{
+  display: none
+}
+
+#calendly:hover:before{
+  content: "[calendly]"
+}
