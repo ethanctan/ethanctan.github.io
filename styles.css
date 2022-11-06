@@ -19,11 +19,6 @@ main {
   font-style: normal;
 }
 
-#title {
-  filter: blur(0.5px);
-  font-family: 'ModeSeven';
-}
-
 #nav {
   position: absolute;
   display: flex;
