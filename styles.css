@@ -99,6 +99,14 @@ ul {
   content: "[JLI: philosophy]"
 }
 
+#hackbrown:hover span{
+  display: none
+}
+
+#hackbrown:hover:before{
+  content: "[Hack@Brown: smarchitect]"
+}
+
 #back:hover span{
   display: none
 }
